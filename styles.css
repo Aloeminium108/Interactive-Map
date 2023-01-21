@@ -1,0 +1,41 @@
+body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+canvas {
+    background-color: aquamarine;
+}
+
+select {
+    width: 30em;
+}
+
+.fullscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5em;
+    text-align: center;
+    align-items: center;
+    background-color: #ccc;
+}
+
+#map {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em 2em 2em 2em;
+    width: 100%;
+    flex-grow: 4;
+    background-color: #eee;
+}
