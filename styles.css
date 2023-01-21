@@ -4,10 +4,6 @@ body {
     overflow: hidden;
 }
 
-canvas {
-    background-color: aquamarine;
-}
-
 select {
     width: 30em;
 }
@@ -34,8 +30,6 @@ select {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 2em 2em 2em 2em;
-    width: 100%;
-    flex-grow: 4;
+    flex-grow: 1;
     background-color: #eee;
 }
